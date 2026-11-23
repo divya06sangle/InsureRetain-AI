@@ -7,11 +7,11 @@
   "benchmarks": [
     {
       "model_name": "Random Forest (Tuned)",
-      "accuracy": 74.71,
-      "precision": 77.48,
-      "recall": 81.59,
-      "f1_score": 79.48,
-      "roc_auc": 81.45
+      "accuracy": 74.35,
+      "precision": 76.94,
+      "recall": 81.79,
+      "f1_score": 79.29,
+      "roc_auc": 80.2
     },
     {
       "model_name": "LightGBM",

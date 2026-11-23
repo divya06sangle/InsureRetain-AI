@@ -118,10 +118,10 @@ def main():
 
     # 1. Tuned Random Forest Classifier
     rf_model = RandomForestClassifier(
-        n_estimators=250,
-        max_depth=18,
-        min_samples_split=8,
-        min_samples_leaf=3,
+        n_estimators=100,
+        max_depth=12,
+        min_samples_split=10,
+        min_samples_leaf=5,
         max_features="sqrt",
         class_weight="balanced",
         n_jobs=-1,
