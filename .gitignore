@@ -1,0 +1,12 @@
+# Keep secret API keys private
+.env
+*.env
+
+# Ignore Python virtual environments
+venv/
+.venv/
+__pycache__/
+
+# Ignore large dataset and generated model files
+ml_pipeline/data/*.csv
+ml_pipeline/artifacts/*.joblib

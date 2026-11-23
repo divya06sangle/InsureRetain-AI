@@ -1,0 +1,34 @@
+[
+  {
+    "rule_id": "RET-101",
+    "applies_to_risk": ["High", "Medium"],
+    "trigger_keywords": ["Premium", "Payment", "Monthly", "Quaterly", "Burden"],
+    "offer_title": "Flexible Payment Restructuring & 30-Day Grace Extension",
+    "approved_incentive": "Switch payment mode to Semi-Annual/Annual with a 5% loyalty fee waiver + 30-day interest-free grace period.",
+    "advisor_action": "Schedule a 10-minute payment restructuring call before next due date."
+  },
+  {
+    "rule_id": "RET-102",
+    "applies_to_risk": ["High", "Medium"],
+    "trigger_keywords": ["Policy Type", "Plan", "Sub-Plan", "Benefit", "Coverage"],
+    "offer_title": "Coverage Right-Sizing & Partial Benefit Step-Down",
+    "approved_incentive": "Allow policyholder to adjust coverage benefit by up to 25% without medical re-underwriting to lower recurring premiums.",
+    "advisor_action": "Send personalized policy comparison showing lower premium tier options."
+  },
+  {
+    "rule_id": "RET-103",
+    "applies_to_risk": ["High", "Medium"],
+    "trigger_keywords": ["Tenure", "Year", "Channel", "Sales", "Age"],
+    "offer_title": "Early-Tenure Onboarding Concierge & Benefit Review",
+    "approved_incentive": "Assign dedicated Retention Specialist + complimentary annual policy health checkup and Non-Lapse Guarantee review.",
+    "advisor_action": "Trigger priority welcome/re-engagement outreach via preferred channel."
+  },
+  {
+    "rule_id": "RET-104",
+    "applies_to_risk": ["Low"],
+    "trigger_keywords": ["All"],
+    "offer_title": "Inforce Loyalty Appreciation & Auto-Pay Reward",
+    "approved_incentive": "Eligible for 2% renewal bonus credit when enrolled in auto-debit advance premium.",
+    "advisor_action": "No urgent intervention needed; send annual value statement."
+  }
+]
