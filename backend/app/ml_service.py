@@ -1,4 +1,5 @@
 import json
+import shap
 import joblib
 import numpy as np
 import pandas as pd
@@ -40,7 +41,7 @@ FRIENDLY_LABELS = {
 class MLService:
     def __init__(self):
         self.model = joblib.load(ARTIFACTS_DIR / "rf_lapse_model.joblib")
-        self.explainer = joblib.load(ARTIFACTS_DIR / "shap_explainer.joblib")
+        self.explainer = shap.TreeExplainer(self.model)
         with open(ARTIFACTS_DIR / "metrics.json", "r", encoding="utf-8") as f:
             self.metrics_report = json.load(f)
 
